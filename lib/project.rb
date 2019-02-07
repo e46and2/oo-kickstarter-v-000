@@ -5,6 +5,7 @@ attr_accessor :title
 def initialize(title)
   @backers = []
   @title = title 
+  @backer = backer 
 end
 
 def add_backer(backer)
